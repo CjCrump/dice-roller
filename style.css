@@ -12,6 +12,23 @@ body {
     align-items: center;
 }
 
+.home {
+  position: fixed;
+  top: 0;
+  left: 0;
+  max-width: 15%;
+  margin: 0;
+  padding: 6px;
+  text-decoration: none;
+  background:white;
+  color: black;
+}
+
+.home:hover {
+  background: black;
+  color: white;
+}
+
 .game-container {
     background: #fff;
     padding: 2rem;
